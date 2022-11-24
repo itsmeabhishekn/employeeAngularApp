@@ -10,6 +10,7 @@ import { AddEmpComponent } from './add-emp/add-emp.component';
 import { DelEmpComponent } from './del-emp/del-emp.component';
 import { EmpEditComponent } from './emp-edit/emp-edit.component';
 import { EmpSearchComponent } from './emp-search/emp-search.component';
+import { EmpViewComponent } from './emp-view/emp-view.component';
 
 
 const myRoute:Routes = [
@@ -28,7 +29,8 @@ const myRoute:Routes = [
     AddEmpComponent,
     DelEmpComponent,
     EmpEditComponent,
-    EmpSearchComponent
+    EmpSearchComponent,
+    EmpViewComponent
   ],
   imports: [
     BrowserModule,
