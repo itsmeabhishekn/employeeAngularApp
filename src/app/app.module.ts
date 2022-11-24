@@ -7,6 +7,7 @@ import { AdminLoginComponent } from './admin-login/admin-login.component';
 import { Routes,RouterModule } from '@angular/router';
 import { NavbarComponent } from './navbar/navbar.component';
 import { AddEmpComponent } from './add-emp/add-emp.component';
+import { DelEmpComponent } from './del-emp/del-emp.component';
 
 
 const myRoute:Routes = [
@@ -22,7 +23,8 @@ const myRoute:Routes = [
     AppComponent,
     AdminLoginComponent,
     NavbarComponent,
-    AddEmpComponent
+    AddEmpComponent,
+    DelEmpComponent
   ],
   imports: [
     BrowserModule,
