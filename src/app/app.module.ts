@@ -16,9 +16,29 @@ import { EmpViewComponent } from './emp-view/emp-view.component';
 const myRoute:Routes = [
 {
   path:"",
-  /* AdminLoginComponent */
-  
+component:AdminLoginComponent
+},
+ {
+  path:"search",
+  component:EmpSearchComponent
+},
+{
+  path:"edit",
+  component:EmpEditComponent
+},
+{
+  path:"delete",
+  component:DelEmpComponent
+},
+{
+  path:"view",
+  component:EmpViewComponent
+},
+{
+  path:"add",
+  component:AddEmpComponent
 }
+
 ]
 
 @NgModule({
