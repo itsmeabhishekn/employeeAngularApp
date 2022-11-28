@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./del-emp.component.css']
 })
 export class DelEmpComponent {
+  empid = ""
+
+  readValue = () => {
+
+    let data = { "empid": this.empid }
+    console.log(data)
+  }
+
 
 }

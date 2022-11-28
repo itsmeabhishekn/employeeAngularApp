@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./emp-edit.component.css']
 })
 export class EmpEditComponent {
+  empid = ""
+
+  readValues = () => {
+    let data = { "empid": this.empid }
+    console.log(data)
+  }
 
 }
