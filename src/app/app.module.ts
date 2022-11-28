@@ -11,6 +11,7 @@ import { DelEmpComponent } from './del-emp/del-emp.component';
 import { EmpEditComponent } from './emp-edit/emp-edit.component';
 import { EmpSearchComponent } from './emp-search/emp-search.component';
 import { EmpViewComponent } from './emp-view/emp-view.component';
+import { FormsModule } from '@angular/forms';
 
 
 const myRoute:Routes = [
@@ -55,7 +56,8 @@ component:AdminLoginComponent
   imports: [
     BrowserModule,
     AppRoutingModule,
-    RouterModule.forRoot(myRoute)
+    RouterModule.forRoot(myRoute),
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
